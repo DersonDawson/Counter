@@ -1,0 +1,33 @@
+body {
+   background-image: radial-gradient(circle at 50% 59.48%, #54d4fb 0, #0cc1ed 50%, #00aee0 100%);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid rgb(3, 5, 5);
+    background-color: rgb(240, 66, 162);
+    color: rgb(117, 56, 187);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+#counter{
+    display: flex;
+}
+
+#currentNumber{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 20pt;
+}
